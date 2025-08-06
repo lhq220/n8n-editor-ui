@@ -36,7 +36,7 @@
     "@lezer/common": "1.1.0",
     "@n8n/api-types": "0.40.0",
     "@n8n/chat": "0.51.0",
-    "@n8n/codemirror-lang": "git+https://github.com/n8n-io/n8n.git#packages/@n8n/codemirror-lang",
+    "@n8n/codemirror-lang": "git+hhttps://github.com/lhq220/codemirror-lang.git",
     "@n8n/codemirror-lang-sql": "^1.0.2",
     "@n8n/composables": "1.9.0",
     "@n8n/constants": "0.10.0",
