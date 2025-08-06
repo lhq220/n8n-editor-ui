@@ -1,0 +1,212 @@
+
+> n8n-editor-ui@1.106.0 build F:\source\nodejs\n8n-master\packages\frontend\editor-ui
+> cross-env VUE_APP_PUBLIC_PATH="/{{BASE_PATH}}/" NODE_OPTIONS="--max-old-space-size=8192" vite build
+
+Browserslist: browsers data (caniuse-lite) is 6 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+[36mvite v6.3.5 [32mbuilding for production...[36m[39m
+<script src="/{{BASE_PATH}}/static/base-path.js"> in "/index.html" can't be bundled without type="module" attribute
+<script src="/{{BASE_PATH}}/static/posthog.init.js"> in "/index.html" can't be bundled without type="module" attribute
+
+/{{BASE_PATH}}/static/prefers-color-scheme.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
+transforming...
+[33m[plugin vite:resolve] Module "os" has been externalized for browser compatibility, imported by "F:/source/nodejs/n8n-master/node_modules/.pnpm/recast@0.22.0/node_modules/recast/lib/util.js". See https://vite.dev/guide/troubleshooting.html#module-externalized-for-browser-compatibility for more details.[39m
+[32m✓[39m 6079 modules transformed.
+[33m../../../node_modules/.pnpm/web-tree-sitter@0.24.3/node_modules/web-tree-sitter/tree-sitter.js (1195:36): Use of eval in "../../../node_modules/.pnpm/web-tree-sitter@0.24.3/node_modules/web-tree-sitter/tree-sitter.js" is strongly discouraged as it poses security risks and may cause issues with minification.[39m
+[33m../../../node_modules/.pnpm/web-tree-sitter@0.24.3/node_modules/web-tree-sitter/tree-sitter.js (1221:38): Use of eval in "../../../node_modules/.pnpm/web-tree-sitter@0.24.3/node_modules/web-tree-sitter/tree-sitter.js" is strongly discouraged as it poses security risks and may cause issues with minification.[39m
+rendering chunks...
+[33m[plugin vite:reporter] 
+(!) F:/source/nodejs/n8n-master/packages/frontend/@n8n/design-system/src/locale/lang/en.ts is dynamically imported by F:/source/nodejs/n8n-master/packages/frontend/@n8n/design-system/src/locale/index.ts but also statically imported by F:/source/nodejs/n8n-master/packages/frontend/@n8n/design-system/src/locale/index.ts, dynamic import will not move module into another chunk.
+[39m
+[33m[plugin vite:reporter] 
+(!) F:/source/nodejs/n8n-master/packages/frontend/editor-ui/src/components/VirtualSchema.vue is dynamically imported by F:/source/nodejs/n8n-master/packages/frontend/editor-ui/src/components/RunData.vue?vue&type=script&setup=true&lang.ts but also statically imported by F:/source/nodejs/n8n-master/packages/frontend/editor-ui/src/components/ExpressionEditModal.vue?vue&type=script&setup=true&lang.ts, dynamic import will not move module into another chunk.
+[39m
+[33m[plugin vite:reporter] 
+(!) F:/source/nodejs/n8n-master/packages/frontend/editor-ui/src/components/RunDataHtml.vue is dynamically imported by F:/source/nodejs/n8n-master/packages/frontend/editor-ui/src/components/RunData.vue?vue&type=script&setup=true&lang.ts but also statically imported by F:/source/nodejs/n8n-master/packages/frontend/editor-ui/src/components/BinaryDataDisplayEmbed.vue?vue&type=script&setup=true&lang.ts, dynamic import will not move module into another chunk.
+[39m
+computing gzip size...
+[36m[vite-plugin-static-copy][39m [32mCopied 2 items.[39m
+[2mdist/[22m[32mindex.html                                                                          [39m[1m[2m     1.13 kB[22m[1m[22m[2m │ gzip:     0.56 kB[22m
+[2mdist/[22m[32massets/element-icons-B-tDfklg.woff                                                  [39m[1m[2m    28.20 kB[22m[1m[22m
+[2mdist/[22m[32massets/element-icons-_lZGOqcG.ttf                                                   [39m[1m[2m    55.96 kB[22m[1m[22m
+[2mdist/[22m[32massets/CommitMonoVariable-ytizKI8U.woff2                                            [39m[1m[2m    86.77 kB[22m[1m[22m
+[2mdist/[22m[32massets/doppler-B__k0MeW.webp                                                        [39m[1m[2m   315.06 kB[22m[1m[22m
+[2mdist/[22m[32massets/InterVariable-DiVDrmQJ.woff2                                                 [39m[1m[2m   352.24 kB[22m[1m[22m
+[2mdist/[22m[32massets/InterVariable-Italic-FCBEiFp6.woff2                                          [39m[1m[2m   387.98 kB[22m[1m[22m
+[2mdist/[22m[32massets/typescript.worker-KwUz68Jx.js                                                [39m[1m[2m10,120.02 kB[22m[1m[22m
+[2mdist/[22m[35massets/EntityNotFound-DvXhVSfv.css                                                  [39m[1m[2m     0.19 kB[22m[1m[22m[2m │ gzip:     0.16 kB[22m
+[2mdist/[22m[35massets/EntityUnAuthorised-BwDthxJU.css                                              [39m[1m[2m     0.20 kB[22m[1m[22m[2m │ gzip:     0.16 kB[22m
+[2mdist/[22m[35massets/AnimatedSpinner-ChSRgyeI.css                                                 [39m[1m[2m     0.57 kB[22m[1m[22m[2m │ gzip:     0.19 kB[22m
+[2mdist/[22m[35massets/RunDataJsonActions-B2jW3_UG.css                                              [39m[1m[2m     2.65 kB[22m[1m[22m[2m │ gzip:     0.53 kB[22m
+[2mdist/[22m[35massets/AddDataStoreModal-D3j8deoq.css                                               [39m[1m[2m     2.70 kB[22m[1m[22m[2m │ gzip:     0.54 kB[22m
+[2mdist/[22m[35massets/InsightsPaywall-CE5W3W4m.css                                                 [39m[1m[2m     2.71 kB[22m[1m[22m[2m │ gzip:     0.57 kB[22m
+[2mdist/[22m[35massets/NodeCreation-CxN6JIS_.css                                                    [39m[1m[2m     2.83 kB[22m[1m[22m[2m │ gzip:     0.62 kB[22m
+[2mdist/[22m[35massets/ErrorView-DPS9icAS.css                                                       [39m[1m[2m     2.93 kB[22m[1m[22m[2m │ gzip:     0.63 kB[22m
+[2mdist/[22m[35massets/WorkflowExecutionsLandingPage-Bm_hJMl4.css                                   [39m[1m[2m     2.97 kB[22m[1m[22m[2m │ gzip:     0.63 kB[22m
+[2mdist/[22m[35massets/SigninView-D57wRRHz.css                                                      [39m[1m[2m     3.06 kB[22m[1m[22m[2m │ gzip:     0.68 kB[22m
+[2mdist/[22m[35massets/TemplatesCollectionView-2q1rzsOG.css                                         [39m[1m[2m     3.06 kB[22m[1m[22m[2m │ gzip:     0.67 kB[22m
+[2mdist/[22m[35massets/SetupWorkflowFromTemplateView-ZPJL_m2F.css                                   [39m[1m[2m     3.09 kB[22m[1m[22m[2m │ gzip:     0.68 kB[22m
+[2mdist/[22m[35massets/SettingsExternalSecrets-BAX9ENm9.css                                         [39m[1m[2m     3.10 kB[22m[1m[22m[2m │ gzip:     0.66 kB[22m
+[2mdist/[22m[35massets/WorkflowPreview-CIOAVgxK.css                                                 [39m[1m[2m     3.18 kB[22m[1m[22m[2m │ gzip:     0.72 kB[22m
+[2mdist/[22m[35massets/Logo-DaegEk2m.css                                                            [39m[1m[2m     3.23 kB[22m[1m[22m[2m │ gzip:     0.69 kB[22m
+[2mdist/[22m[35massets/SettingsLdapView-D0SUO3ai.css                                                [39m[1m[2m     3.25 kB[22m[1m[22m[2m │ gzip:     0.71 kB[22m
+[2mdist/[22m[35massets/DataStoreView-bZrewhaR.css                                                   [39m[1m[2m     3.30 kB[22m[1m[22m[2m │ gzip:     0.79 kB[22m
+[2mdist/[22m[35massets/TemplatesWorkflowView-DpIiJjJp.css                                           [39m[1m[2m     3.30 kB[22m[1m[22m[2m │ gzip:     0.75 kB[22m
+[2mdist/[22m[35massets/RunDataSearch-2eEalFoi.css                                                   [39m[1m[2m     3.30 kB[22m[1m[22m[2m │ gzip:     0.73 kB[22m
+[2mdist/[22m[35massets/WorkflowExecutionsInfoAccordion-53bC-IXN.css                                 [39m[1m[2m     3.32 kB[22m[1m[22m[2m │ gzip:     0.75 kB[22m
+[2mdist/[22m[35massets/InsightsTableWorkflows-BTHSCwX8.css                                          [39m[1m[2m     3.35 kB[22m[1m[22m[2m │ gzip:     0.78 kB[22m
+[2mdist/[22m[35massets/SettingsSso-D4HKPLvV.css                                                     [39m[1m[2m     3.39 kB[22m[1m[22m[2m │ gzip:     0.71 kB[22m
+[2mdist/[22m[35massets/SettingsPersonalView-Bt8bL5tJ.css                                            [39m[1m[2m     3.57 kB[22m[1m[22m[2m │ gzip:     0.84 kB[22m
+[2mdist/[22m[35massets/InfoAccordion-dxudNqVC.css                                                   [39m[1m[2m     3.73 kB[22m[1m[22m[2m │ gzip:     0.79 kB[22m
+[2mdist/[22m[35massets/TableBase-Bf42_9Yp.css                                                       [39m[1m[2m     3.96 kB[22m[1m[22m[2m │ gzip:     0.83 kB[22m
+[2mdist/[22m[35massets/RunDataParsedAiContent-wfIiKsq7.css                                          [39m[1m[2m     3.98 kB[22m[1m[22m[2m │ gzip:     0.76 kB[22m
+[2mdist/[22m[35massets/InsightsDashboard-C27Avzrv.css                                               [39m[1m[2m     4.40 kB[22m[1m[22m[2m │ gzip:     1.06 kB[22m
+[2mdist/[22m[35massets/FixedCollectionParameter-CEzpjeQZ.css                                        [39m[1m[2m     5.08 kB[22m[1m[22m[2m │ gzip:     0.96 kB[22m
+[2mdist/[22m[35massets/TemplateDetails-DyUqVhf2.css                                                 [39m[1m[2m     5.40 kB[22m[1m[22m[2m │ gzip:     0.66 kB[22m
+[2mdist/[22m[35massets/SettingsView-4yzof_Pb.css                                                    [39m[1m[2m     5.86 kB[22m[1m[22m[2m │ gzip:     0.81 kB[22m
+[2mdist/[22m[35massets/InsightsSummary-DTFIhBF3.css                                                 [39m[1m[2m     5.86 kB[22m[1m[22m[2m │ gzip:     1.28 kB[22m
+[2mdist/[22m[35massets/TemplatesView-Cyu28Dlo.css                                                   [39m[1m[2m     5.92 kB[22m[1m[22m[2m │ gzip:     0.83 kB[22m
+[2mdist/[22m[35massets/CredentialsView-BAqjGrNq.css                                                 [39m[1m[2m     6.00 kB[22m[1m[22m[2m │ gzip:     0.90 kB[22m
+[2mdist/[22m[35massets/SettingsLogStreamingView-CflEMmu9.css                                        [39m[1m[2m     6.01 kB[22m[1m[22m[2m │ gzip:     0.91 kB[22m
+[2mdist/[22m[35massets/ProjectHeader-B5uv4DKo.css                                                   [39m[1m[2m     6.45 kB[22m[1m[22m[2m │ gzip:     1.01 kB[22m
+[2mdist/[22m[35massets/SettingsCommunityNodesView-CAggjsaT.css                                      [39m[1m[2m     6.49 kB[22m[1m[22m[2m │ gzip:     0.98 kB[22m
+[2mdist/[22m[35massets/Tags-B0bIUnzf.css                                                            [39m[1m[2m     6.50 kB[22m[1m[22m[2m │ gzip:     0.95 kB[22m
+[2mdist/[22m[35massets/SettingsApiView-k1hALKCX.css                                                 [39m[1m[2m     6.62 kB[22m[1m[22m[2m │ gzip:     1.05 kB[22m
+[2mdist/[22m[35massets/SettingsSourceControl-BBxJXbFC.css                                           [39m[1m[2m     6.91 kB[22m[1m[22m[2m │ gzip:     1.05 kB[22m
+[2mdist/[22m[35massets/SettingsUsageAndPlan-_VxSs28G.css                                            [39m[1m[2m     7.18 kB[22m[1m[22m[2m │ gzip:     1.14 kB[22m
+[2mdist/[22m[35massets/RunDataJson-BH9HLoGC.css                                                     [39m[1m[2m     7.24 kB[22m[1m[22m[2m │ gzip:     1.10 kB[22m
+[2mdist/[22m[35massets/NodeDetailsViewV2-Bn1PbAPe.css                                               [39m[1m[2m     8.09 kB[22m[1m[22m[2m │ gzip:     1.40 kB[22m
+[2mdist/[22m[35massets/VariablesView-Bh0OeH4s.css                                                   [39m[1m[2m     8.37 kB[22m[1m[22m[2m │ gzip:     0.89 kB[22m
+[2mdist/[22m[35massets/SettingsUsersView-BG7JdfYz.css                                               [39m[1m[2m     9.31 kB[22m[1m[22m[2m │ gzip:     1.16 kB[22m
+[2mdist/[22m[35massets/AuthView-CWVio_MZ.css                                                        [39m[1m[2m     9.45 kB[22m[1m[22m[2m │ gzip:     1.10 kB[22m
+[2mdist/[22m[35massets/ExecutionsTime-etWexlXm.css                                                  [39m[1m[2m     9.93 kB[22m[1m[22m[2m │ gzip:     1.25 kB[22m
+[2mdist/[22m[35massets/TemplateList-XNW-2Ugr.css                                                    [39m[1m[2m    10.08 kB[22m[1m[22m[2m │ gzip:     1.22 kB[22m
+[2mdist/[22m[35massets/RunDataTable-n918b-Qv.css                                                    [39m[1m[2m    10.35 kB[22m[1m[22m[2m │ gzip:     1.78 kB[22m
+[2mdist/[22m[35massets/ExecutionsView-BHBePl1_.css                                                  [39m[1m[2m    11.51 kB[22m[1m[22m[2m │ gzip:     1.18 kB[22m
+[2mdist/[22m[35massets/EvaluationsView-BTyYfInB.css                                                 [39m[1m[2m    12.05 kB[22m[1m[22m[2m │ gzip:     1.28 kB[22m
+[2mdist/[22m[35massets/EvaluationsRootView-B5AhHo41.css                                             [39m[1m[2m    12.30 kB[22m[1m[22m[2m │ gzip:     1.28 kB[22m
+[2mdist/[22m[35massets/ProjectSettings-CCVXNK3G.css                                                 [39m[1m[2m    12.72 kB[22m[1m[22m[2m │ gzip:     1.39 kB[22m
+[2mdist/[22m[35massets/NodeDetailsView-CjdovDgq.css                                                 [39m[1m[2m    13.87 kB[22m[1m[22m[2m │ gzip:     1.63 kB[22m
+[2mdist/[22m[35massets/WorkflowHistory-7Ad0Va7M.css                                                 [39m[1m[2m    14.46 kB[22m[1m[22m[2m │ gzip:     1.59 kB[22m
+[2mdist/[22m[35massets/WorkflowExecutionsPreview-Bk3NJMZf.css                                       [39m[1m[2m    15.42 kB[22m[1m[22m[2m │ gzip:     1.92 kB[22m
+[2mdist/[22m[35massets/ResourcesListLayout-C1JgyGhX.css                                             [39m[1m[2m    16.40 kB[22m[1m[22m[2m │ gzip:     1.63 kB[22m
+[2mdist/[22m[35massets/WorkflowExecutionsView-C_xuUSa8.css                                          [39m[1m[2m    16.48 kB[22m[1m[22m[2m │ gzip:     1.84 kB[22m
+[2mdist/[22m[35massets/WorkflowActivator-DhLX6i1H.css                                               [39m[1m[2m    18.62 kB[22m[1m[22m[2m │ gzip:     1.82 kB[22m
+[2mdist/[22m[35massets/TemplatesSearchView-DETaMpDt.css                                             [39m[1m[2m    19.73 kB[22m[1m[22m[2m │ gzip:     1.95 kB[22m
+[2mdist/[22m[35massets/WorkerView-BrSoYcbf.css                                                      [39m[1m[2m    20.13 kB[22m[1m[22m[2m │ gzip:     1.38 kB[22m
+[2mdist/[22m[35massets/WorkflowsView-DsJIOJ7h.css                                                   [39m[1m[2m    20.87 kB[22m[1m[22m[2m │ gzip:     2.08 kB[22m
+[2mdist/[22m[35massets/NodeView-BMiOpmk4.css                                                        [39m[1m[2m    22.39 kB[22m[1m[22m[2m │ gzip:     2.43 kB[22m
+[2mdist/[22m[35massets/MainSidebar-D74VZmM5.css                                                     [39m[1m[2m    25.16 kB[22m[1m[22m[2m │ gzip:     2.43 kB[22m
+[2mdist/[22m[35massets/MainHeader-qSHM1Rvp.css                                                      [39m[1m[2m    26.38 kB[22m[1m[22m[2m │ gzip:     2.24 kB[22m
+[2mdist/[22m[35massets/TriggerPanel-DmVMaaLr.css                                                    [39m[1m[2m    34.36 kB[22m[1m[22m[2m │ gzip:     3.22 kB[22m
+[2mdist/[22m[35massets/NodeCreator-C5bvseS3.css                                                     [39m[1m[2m    76.67 kB[22m[1m[22m[2m │ gzip:     5.11 kB[22m
+[2mdist/[22m[35massets/LogsPanel-B-Tmod-K.css                                                       [39m[1m[2m    87.83 kB[22m[1m[22m[2m │ gzip:     6.88 kB[22m
+[2mdist/[22m[35massets/index-Cu27tAiF.css                                                           [39m[1m[2m 1,383.94 kB[22m[1m[22m[2m │ gzip:   116.30 kB[22m
+[2mdist/[22m[36massets/CollectionParameter-CUxN6jEU.js                                              [39m[1m[2m     0.09 kB[22m[1m[22m[2m │ gzip:     0.10 kB[22m
+[2mdist/[22m[36massets/canvas-CjJQKCNC.js                                                           [39m[1m[2m     0.13 kB[22m[1m[22m[2m │ gzip:     0.11 kB[22m
+[2mdist/[22m[36massets/global-link-actions-pHVvwlCw.js                                              [39m[1m[2m     0.16 kB[22m[1m[22m[2m │ gzip:     0.13 kB[22m
+[2mdist/[22m[36massets/_commonjs-dynamic-modules-TGKdzP3c.js                                        [39m[1m[2m     0.29 kB[22m[1m[22m[2m │ gzip:     0.21 kB[22m
+[2mdist/[22m[36massets/useProjectPages-F8P8o7XP.js                                                  [39m[1m[2m     0.62 kB[22m[1m[22m[2m │ gzip:     0.31 kB[22m
+[2mdist/[22m[36massets/SignoutView-DPe9XBrU.js                                                      [39m[1m[2m     0.86 kB[22m[1m[22m[2m │ gzip:     0.46 kB[22m
+[2mdist/[22m[36massets/TableBase--SiXviPv.js                                                        [39m[1m[2m     0.86 kB[22m[1m[22m[2m │ gzip:     0.42 kB[22m
+[2mdist/[22m[36massets/DemoFooter-B3wDoJFc.js                                                       [39m[1m[2m     0.87 kB[22m[1m[22m[2m │ gzip:     0.49 kB[22m
+[2mdist/[22m[36massets/pickBy-DthnPm3A.js                                                           [39m[1m[2m     0.97 kB[22m[1m[22m[2m │ gzip:     0.42 kB[22m
+[2mdist/[22m[36massets/dataStore.store-3TbisgSG.js                                                  [39m[1m[2m     1.26 kB[22m[1m[22m[2m │ gzip:     0.48 kB[22m
+[2mdist/[22m[36massets/useBeforeUnload-DlNLgVRB.js                                                  [39m[1m[2m     1.29 kB[22m[1m[22m[2m │ gzip:     0.52 kB[22m
+[2mdist/[22m[36massets/EmptySharedSectionActionBox.vue_vue_type_script_setup_true_lang-BnupmOnw.js  [39m[1m[2m     1.41 kB[22m[1m[22m[2m │ gzip:     0.69 kB[22m
+[2mdist/[22m[36massets/AnimatedSpinner-g9_eifCj.js                                                  [39m[1m[2m     1.53 kB[22m[1m[22m[2m │ gzip:     0.57 kB[22m
+[2mdist/[22m[36massets/ConsumedTokensDetails.vue_vue_type_script_setup_true_lang-DFv5jaV7.js        [39m[1m[2m     1.68 kB[22m[1m[22m[2m │ gzip:     0.58 kB[22m
+[2mdist/[22m[36massets/InsightsChartFailed-BZ41CYrp.js                                              [39m[1m[2m     1.82 kB[22m[1m[22m[2m │ gzip:     0.81 kB[22m
+[2mdist/[22m[36massets/PushConnectionTracker.vue_vue_type_script_setup_true_lang-Bd_iFjMB.js        [39m[1m[2m     1.92 kB[22m[1m[22m[2m │ gzip:     0.79 kB[22m
+[2mdist/[22m[36massets/InsightsChartTotal-CHni4vab.js                                               [39m[1m[2m     1.93 kB[22m[1m[22m[2m │ gzip:     0.81 kB[22m
+[2mdist/[22m[36massets/InsightsChartFailureRate-DrUGzfk8.js                                         [39m[1m[2m     1.99 kB[22m[1m[22m[2m │ gzip:     0.88 kB[22m
+[2mdist/[22m[36massets/SamlOnboarding-FHDwbS5s.js                                                   [39m[1m[2m     2.13 kB[22m[1m[22m[2m │ gzip:     0.84 kB[22m
+[2mdist/[22m[36massets/AnnotationTagsDropdown.ee.vue_vue_type_script_setup_true_lang-C09hFEE_.js    [39m[1m[2m     2.14 kB[22m[1m[22m[2m │ gzip:     0.84 kB[22m
+[2mdist/[22m[36massets/InsightsPaywall-WZ8adQVP.js                                                  [39m[1m[2m     2.17 kB[22m[1m[22m[2m │ gzip:     0.77 kB[22m
+[2mdist/[22m[36massets/WorkflowOnboardingView-C0O0IiEV.js                                           [39m[1m[2m     2.17 kB[22m[1m[22m[2m │ gzip:     0.78 kB[22m
+[2mdist/[22m[36massets/InsightsChartAverageRuntime-Uc-XC6T_.js                                      [39m[1m[2m     2.20 kB[22m[1m[22m[2m │ gzip:     0.96 kB[22m
+[2mdist/[22m[36massets/SetupWorkflowCredentialsButton-CZ6lozKH.js                                   [39m[1m[2m     2.33 kB[22m[1m[22m[2m │ gzip:     0.90 kB[22m
+[2mdist/[22m[36massets/InsightsChartTimeSaved-m8tv_3Z_.js                                           [39m[1m[2m     2.43 kB[22m[1m[22m[2m │ gzip:     1.03 kB[22m
+[2mdist/[22m[36massets/ErrorView-ByJB3iSp.js                                                        [39m[1m[2m     2.67 kB[22m[1m[22m[2m │ gzip:     0.96 kB[22m
+[2mdist/[22m[36massets/TemplatesView--Dm39m0N.js                                                    [39m[1m[2m     2.84 kB[22m[1m[22m[2m │ gzip:     0.94 kB[22m
+[2mdist/[22m[36massets/EntityUnAuthorised-D5_9J5ev.js                                               [39m[1m[2m     3.05 kB[22m[1m[22m[2m │ gzip:     1.07 kB[22m
+[2mdist/[22m[36massets/templateActions-C81xhL63.js                                                  [39m[1m[2m     3.14 kB[22m[1m[22m[2m │ gzip:     1.02 kB[22m
+[2mdist/[22m[36massets/ForgotMyPasswordView-cEAoiVuM.js                                             [39m[1m[2m     3.20 kB[22m[1m[22m[2m │ gzip:     1.12 kB[22m
+[2mdist/[22m[36massets/SetupView-D32UXE8z.js                                                        [39m[1m[2m     3.22 kB[22m[1m[22m[2m │ gzip:     1.04 kB[22m
+[2mdist/[22m[36massets/EntityNotFound-14KZIlbR.js                                                   [39m[1m[2m     3.41 kB[22m[1m[22m[2m │ gzip:     0.98 kB[22m
+[2mdist/[22m[36massets/Tags-ut1MQ6jc.js                                                             [39m[1m[2m     3.44 kB[22m[1m[22m[2m │ gzip:     1.24 kB[22m
+[2mdist/[22m[36massets/RunDataSearch-KJ8tgz3j.js                                                    [39m[1m[2m     4.05 kB[22m[1m[22m[2m │ gzip:     1.43 kB[22m
+[2mdist/[22m[36massets/useWorkflowActivate-B4sA0IMI.js                                              [39m[1m[2m     4.05 kB[22m[1m[22m[2m │ gzip:     1.17 kB[22m
+[2mdist/[22m[36massets/AddDataStoreModal-DF2P1BsZ.js                                                [39m[1m[2m     4.23 kB[22m[1m[22m[2m │ gzip:     1.36 kB[22m
+[2mdist/[22m[36massets/SignupView-CnkWs689.js                                                       [39m[1m[2m     4.33 kB[22m[1m[22m[2m │ gzip:     1.35 kB[22m
+[2mdist/[22m[36massets/WorkflowExecutionsLandingPage-TWXohk-k.js                                    [39m[1m[2m     4.46 kB[22m[1m[22m[2m │ gzip:     1.28 kB[22m
+[2mdist/[22m[36massets/useExecutionDebugging-Co-UHcaf.js                                            [39m[1m[2m     4.87 kB[22m[1m[22m[2m │ gzip:     1.59 kB[22m
+[2mdist/[22m[36massets/ChangePasswordView-lPBNeaI2.js                                               [39m[1m[2m     5.04 kB[22m[1m[22m[2m │ gzip:     1.50 kB[22m
+[2mdist/[22m[36massets/Logo-CpbUT-th.js                                                             [39m[1m[2m     5.06 kB[22m[1m[22m[2m │ gzip:     1.99 kB[22m
+[2mdist/[22m[36massets/index-DvCwDe6d.js                                                            [39m[1m[2m     5.11 kB[22m[1m[22m[2m │ gzip:     1.54 kB[22m
+[2mdist/[22m[36massets/chartjs.utils-BCHQjZjb.js                                                    [39m[1m[2m     5.29 kB[22m[1m[22m[2m │ gzip:     1.01 kB[22m
+[2mdist/[22m[36massets/InfoAccordion-z88ywsTo.js                                                    [39m[1m[2m     5.57 kB[22m[1m[22m[2m │ gzip:     1.55 kB[22m
+[2mdist/[22m[36massets/NodeCreation-CI4nCKE7.js                                                     [39m[1m[2m     7.11 kB[22m[1m[22m[2m │ gzip:     2.07 kB[22m
+[2mdist/[22m[36massets/TemplateDetails-CV7RBA24.js                                                  [39m[1m[2m     7.27 kB[22m[1m[22m[2m │ gzip:     1.83 kB[22m
+[2mdist/[22m[36massets/WorkflowPreview-C4pX4P5N.js                                                  [39m[1m[2m     7.88 kB[22m[1m[22m[2m │ gzip:     2.04 kB[22m
+[2mdist/[22m[36massets/TemplatesWorkflowView-XlFCuhq0.js                                            [39m[1m[2m     8.20 kB[22m[1m[22m[2m │ gzip:     2.13 kB[22m
+[2mdist/[22m[36massets/TemplatesCollectionView-DAOZ9O-8.js                                          [39m[1m[2m     8.38 kB[22m[1m[22m[2m │ gzip:     2.25 kB[22m
+[2mdist/[22m[36massets/RunDataJson-BoG0UWAH.js                                                      [39m[1m[2m     8.40 kB[22m[1m[22m[2m │ gzip:     2.49 kB[22m
+[2mdist/[22m[36massets/AuthView-CUsDJMDr.js                                                         [39m[1m[2m     8.72 kB[22m[1m[22m[2m │ gzip:     2.18 kB[22m
+[2mdist/[22m[36massets/SettingsView-CB7wtUle.js                                                     [39m[1m[2m     9.18 kB[22m[1m[22m[2m │ gzip:     2.27 kB[22m
+[2mdist/[22m[36massets/WorkflowExecutionsInfoAccordion-CFYC0rVQ.js                                  [39m[1m[2m     9.21 kB[22m[1m[22m[2m │ gzip:     2.25 kB[22m
+[2mdist/[22m[36massets/InsightsTableWorkflows-DAEy2v_K.js                                           [39m[1m[2m     9.26 kB[22m[1m[22m[2m │ gzip:     2.51 kB[22m
+[2mdist/[22m[36massets/InsightsSummary-D3UImey1.js                                                  [39m[1m[2m     9.83 kB[22m[1m[22m[2m │ gzip:     2.49 kB[22m
+[2mdist/[22m[36massets/RunDataParsedAiContent-DhMVQ-Xh.js                                           [39m[1m[2m    12.00 kB[22m[1m[22m[2m │ gzip:     3.56 kB[22m
+[2mdist/[22m[36massets/SettingsExternalSecrets-DwZIpp_l.js                                          [39m[1m[2m    12.31 kB[22m[1m[22m[2m │ gzip:     2.98 kB[22m
+[2mdist/[22m[36massets/SetupWorkflowFromTemplateView-oT6J8emG.js                                    [39m[1m[2m    12.88 kB[22m[1m[22m[2m │ gzip:     3.16 kB[22m
+[2mdist/[22m[36massets/TemplateList-DuquJx7C.js                                                     [39m[1m[2m    14.06 kB[22m[1m[22m[2m │ gzip:     3.19 kB[22m
+[2mdist/[22m[36massets/DataStoreView-BqHAiCeR.js                                                    [39m[1m[2m    14.50 kB[22m[1m[22m[2m │ gzip:     3.29 kB[22m
+[2mdist/[22m[36massets/FixedCollectionParameter-vY-umTBS.js                                         [39m[1m[2m    14.80 kB[22m[1m[22m[2m │ gzip:     3.30 kB[22m
+[2mdist/[22m[36massets/SigninView-B6D9AO4v.js                                                       [39m[1m[2m    14.83 kB[22m[1m[22m[2m │ gzip:     3.65 kB[22m
+[2mdist/[22m[36massets/SettingsApiView-D_WEnYwb.js                                                  [39m[1m[2m    15.60 kB[22m[1m[22m[2m │ gzip:     3.74 kB[22m
+[2mdist/[22m[36massets/SettingsUsageAndPlan-Ccq3aUA8.js                                             [39m[1m[2m    16.04 kB[22m[1m[22m[2m │ gzip:     3.52 kB[22m
+[2mdist/[22m[36massets/InsightsDashboard-D2Y5Ngv5.js                                                [39m[1m[2m    16.71 kB[22m[1m[22m[2m │ gzip:     4.21 kB[22m
+[2mdist/[22m[36massets/SettingsCommunityNodesView-WAuXa_dI.js                                       [39m[1m[2m    18.50 kB[22m[1m[22m[2m │ gzip:     3.94 kB[22m
+[2mdist/[22m[36massets/SettingsPersonalView-DQZazRhJ.js                                             [39m[1m[2m    18.76 kB[22m[1m[22m[2m │ gzip:     3.89 kB[22m
+[2mdist/[22m[36massets/ProjectHeader--2QyRUV0.js                                                    [39m[1m[2m    18.99 kB[22m[1m[22m[2m │ gzip:     4.42 kB[22m
+[2mdist/[22m[36massets/SettingsLogStreamingView-BDOl0h_3.js                                         [39m[1m[2m    19.85 kB[22m[1m[22m[2m │ gzip:     4.39 kB[22m
+[2mdist/[22m[36massets/EvaluationsView-F3qNutct.js                                                  [39m[1m[2m    20.80 kB[22m[1m[22m[2m │ gzip:     4.88 kB[22m
+[2mdist/[22m[36massets/VariablesView-DOTFPbkd.js                                                    [39m[1m[2m    21.89 kB[22m[1m[22m[2m │ gzip:     5.12 kB[22m
+[2mdist/[22m[36massets/SettingsSourceControl-B_dPtfJL.js                                            [39m[1m[2m    22.23 kB[22m[1m[22m[2m │ gzip:     4.10 kB[22m
+[2mdist/[22m[36massets/CredentialsView-BUIjqZpx.js                                                  [39m[1m[2m    22.25 kB[22m[1m[22m[2m │ gzip:     5.51 kB[22m
+[2mdist/[22m[36massets/usePushConnection-DdW7C93o.js                                                [39m[1m[2m    22.41 kB[22m[1m[22m[2m │ gzip:     5.06 kB[22m
+[2mdist/[22m[36massets/SettingsSso-CoySX1fQ.js                                                      [39m[1m[2m    24.71 kB[22m[1m[22m[2m │ gzip:     4.59 kB[22m
+[2mdist/[22m[36massets/WorkerView-5uX3ExgW.js                                                       [39m[1m[2m    24.83 kB[22m[1m[22m[2m │ gzip:     5.42 kB[22m
+[2mdist/[22m[36massets/buttons.esm-BOkmSohe.js                                                      [39m[1m[2m    25.99 kB[22m[1m[22m[2m │ gzip:     7.63 kB[22m
+[2mdist/[22m[36massets/EvaluationsRootView-CnMKrf_b.js                                              [39m[1m[2m    26.91 kB[22m[1m[22m[2m │ gzip:     4.73 kB[22m
+[2mdist/[22m[36massets/ExecutionsTime.vue_vue_type_script_setup_true_lang-CZRjfuSZ.js               [39m[1m[2m    27.88 kB[22m[1m[22m[2m │ gzip:     5.01 kB[22m
+[2mdist/[22m[36massets/WorkflowActivator-ChQcT-ak.js                                                [39m[1m[2m    32.93 kB[22m[1m[22m[2m │ gzip:     7.03 kB[22m
+[2mdist/[22m[36massets/WorkflowHistory-CXIYw8l7.js                                                  [39m[1m[2m    33.10 kB[22m[1m[22m[2m │ gzip:     7.04 kB[22m
+[2mdist/[22m[36massets/WorkflowExecutionsPreview-DZBmduRF.js                                        [39m[1m[2m    33.32 kB[22m[1m[22m[2m │ gzip:     6.31 kB[22m
+[2mdist/[22m[36massets/SettingsUsersView-mKnhyir8.js                                                [39m[1m[2m    36.24 kB[22m[1m[22m[2m │ gzip:     7.15 kB[22m
+[2mdist/[22m[36massets/RunDataTable-DMUzQW--.js                                                     [39m[1m[2m    37.38 kB[22m[1m[22m[2m │ gzip:     7.47 kB[22m
+[2mdist/[22m[36massets/WorkflowExecutionsView-DJWMx-bK.js                                           [39m[1m[2m    37.61 kB[22m[1m[22m[2m │ gzip:     7.65 kB[22m
+[2mdist/[22m[36massets/ExecutionsView-pESzQInq.js                                                   [39m[1m[2m    40.92 kB[22m[1m[22m[2m │ gzip:     7.86 kB[22m
+[2mdist/[22m[36massets/NodeDetailsViewV2-BaxvtCDg.js                                                [39m[1m[2m    42.83 kB[22m[1m[22m[2m │ gzip:     9.52 kB[22m
+[2mdist/[22m[36massets/ProjectSettings-34k_DfrA.js                                                  [39m[1m[2m    45.05 kB[22m[1m[22m[2m │ gzip:     9.50 kB[22m
+[2mdist/[22m[36massets/NodeDetailsView-DTd6tFFy.js                                                  [39m[1m[2m    47.70 kB[22m[1m[22m[2m │ gzip:    10.05 kB[22m
+[2mdist/[22m[36massets/VueMarkdown-BghKHl3P.js                                                      [39m[1m[2m    48.91 kB[22m[1m[22m[2m │ gzip:    12.89 kB[22m
+[2mdist/[22m[36massets/ResourcesListLayout--uSrgUrF.js                                              [39m[1m[2m    50.94 kB[22m[1m[22m[2m │ gzip:    10.44 kB[22m
+[2mdist/[22m[36massets/TemplatesSearchView-BdlCUCon.js                                              [39m[1m[2m    51.94 kB[22m[1m[22m[2m │ gzip:    11.14 kB[22m
+[2mdist/[22m[36massets/MainSidebar-DlCWBOKc.js                                                      [39m[1m[2m    60.97 kB[22m[1m[22m[2m │ gzip:    12.06 kB[22m
+[2mdist/[22m[36massets/TriggerPanel-Bb69DqnF.js                                                     [39m[1m[2m    68.67 kB[22m[1m[22m[2m │ gzip:    13.27 kB[22m
+[2mdist/[22m[36massets/readyToRunWorkflows.store-C4n_fxwD.js                                        [39m[1m[2m    70.40 kB[22m[1m[22m[2m │ gzip:    14.89 kB[22m
+[2mdist/[22m[36massets/MainHeader-CF9ezBBc.js                                                       [39m[1m[2m    70.48 kB[22m[1m[22m[2m │ gzip:    15.13 kB[22m
+[2mdist/[22m[36massets/SettingsLdapView-Fb4BsH8U.js                                                 [39m[1m[2m    82.77 kB[22m[1m[22m[2m │ gzip:    14.24 kB[22m
+[2mdist/[22m[36massets/NodeCreator-DNlIiXc-.js                                                      [39m[1m[2m   114.20 kB[22m[1m[22m[2m │ gzip:    22.06 kB[22m
+[2mdist/[22m[36massets/NodeView-DmFV_teK.js                                                         [39m[1m[2m   116.72 kB[22m[1m[22m[2m │ gzip:    23.70 kB[22m
+[2mdist/[22m[36massets/WorkflowsView-Du0bqmo1.js                                                    [39m[1m[2m   125.18 kB[22m[1m[22m[2m │ gzip:    21.33 kB[22m
+[2mdist/[22m[36massets/LogsPanel-D03hwrEh.js                                                        [39m[1m[2m   195.23 kB[22m[1m[22m[2m │ gzip:    41.10 kB[22m
+[2mdist/[22m[36massets/polyfills-eMEFRc79.js                                                        [39m[1m[2m   219.24 kB[22m[1m[22m[2m │ gzip:    44.83 kB[22m
+[2mdist/[22m[36massets/RunDataJsonActions-Bbe0aGcd.js                                               [39m[1m[2m   222.45 kB[22m[1m[22m[2m │ gzip:    40.03 kB[22m
+[2mdist/[22m[36massets/en-BbbeX7B2.js                                                               [39m[1m[2m   272.64 kB[22m[1m[22m[2m │ gzip:    62.11 kB[22m
+[2mdist/[22m[36massets/useImportCurlCommand-feXRMIPe.js                                             [39m[1m[2m   352.19 kB[22m[1m[22m[2m │ gzip:    65.72 kB[22m
+[2mdist/[22m[36massets/index-B6CXOKcF.js                                                            [39m[1m[33m15,385.71 kB[39m[22m[2m │ gzip: 3,314.06 kB[22m
+[32m✓ built in 6m 10s[39m
